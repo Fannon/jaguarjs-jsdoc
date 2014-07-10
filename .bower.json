@@ -1,0 +1,13 @@
+{
+  "name": "jaguarjs-jsdoc",
+  "homepage": "https://github.com/Fannon/jaguarjs-jsdoc",
+  "_release": "a346075dc7",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "a346075dc76a2631a9907e7a6e9c6f69212b5df4"
+  },
+  "_source": "git://github.com/Fannon/jaguarjs-jsdoc.git",
+  "_target": "*",
+  "_originalSource": "Fannon/jaguarjs-jsdoc"
+}

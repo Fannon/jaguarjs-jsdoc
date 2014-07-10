@@ -26,7 +26,7 @@
     <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
     <link type="text/css" rel="stylesheet" href="styles/bootstrap.min.css">
     <link type="text/css" rel="stylesheet" href="styles/jaguar.css">
-    
+
     <?js if (env.conf.templates) { ?>
     <script>
     var config = <?js= JSON.stringify(env.conf.templates) ?>;
@@ -38,7 +38,7 @@
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', config.googleAnalytics]);
       _gaq.push(['_trackPageview']);
-    
+
       (function() {
         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
@@ -48,6 +48,20 @@
     <?js } ?>
 </head>
 <body>
+
+<div id="plasticjs-header">
+
+      <a href="http://www.plasticjs.org"><img src="http://www.plasticjs.org/img/plasticjs-120.png" id="plasticjs-header-logo" alt="plastic.js logo"></a>
+
+    <div class="description">
+      <a href="http://www.plasticjs.org/">Home</a>
+      <a href="http://www.plasticjs.org/docs/">User Documentation</a>
+      <a href="http://www.plasticjs.org/devdocs/" class="active">Developer Documentation</a>
+      <a href="https://github.com/Fannon/plastic.js">GitHub</a>
+    </div>
+
+  </div>
+
 <div id="wrap" class="clearfix">
     <?js= this.partial('navigation.tmpl', this) ?>
     <div class="main">
